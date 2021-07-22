@@ -6,18 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!-- CSS Way 1: Using Style Tag
+         <style>
+        body{
+            color:red;
+        }
+    </style> -->
+    <!-- CSS Way 3: Linking an external stylesheet -->
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>ashutoshkumar's component library</h1>
-    <p>this is the component library which makes my projects look good and consistent</p>
+    <h1 id="lib-header">ashutoshkumar's component library</h1>
+    <!-- CSS Way 2: Using Style Attribute
+        <h1 style = "color:red">ashutoshkumar's component library</h1> -->
+    <p class="para">this is the component library which makes my projects look good and consistent</p>
     <hr>
 
     <h2>@typography</h2>
 
     <h1>this is the biggest heading</h1>
     <h2>this is the second biggest heading</h2>
-    <p>this is the normal text, this is free flowing and will wrap at the end like a paragraph</p>
+    <p class="para">this is the normal text, this is free flowing and will wrap at the end like a paragraph</p>
     <small>this is the relatively smaller text</small>
 
     <hr>
@@ -94,12 +104,12 @@
     <h2>@section</h2>
     <section>
         <h3>this is a white section</h3>
-        <p>this will have white background</p>
+        <p class="para">this will have white background</p>
     </section>
 
     <section>
         <h3>this is an off-white section</h3>
-        <p>this will have a gray background</p>
+        <p class="para">this will have a gray background</p>
     </section>
 
     <hr>
