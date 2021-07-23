@@ -1,131 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    <link href="styles.css" rel="stylesheet">
+    <title>Home | Ashutosh Kumar</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1>ashutoshkumar's component library</h1>
-    <p>this is the component library which makes my projects look good and consistent</p>
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>this is the biggest heading</h1>
-    <h2>this is the second biggest heading</h2>
-    <p>this is the normal text, this is free flowing and will wrap at the end like a paragraph</p>
-    <p>this paragraph will have a <strong>bold</strong> text</p>
-    <small>this is the relatively smaller text</small>
-
-    <hr>
-
-    <h2>@containers</h2>
-
-    <h3>@fluid container</h3>
-    <div class="container">this is a fluid container and will go till the end of the page</div>
-
-    <h3>@center container</h3>
-    <div class="container container-center">this is a centered container and will go only till the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class="link link-primary" href="/">PrimaryLink</a>
-    <a class="link link-secondary" href="/">SecondaryLink</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-    <h3>unordered list</h3>
-    <p>this list will not have bullets</p>
-
-    <ul class="list-non-bullet">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-
-    <h3>inline unordered list</h3>
-    <ul class="list-non-bullet">
-        <li class="list-inline-item">inline item one</li>
-        <li class="list-inline-item">inline item two</li>
-        <li class="list-inline-item">inline item three</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol reversed>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
     <nav class="navigation container">
-        <div class="nav-brand">iamBrand</div>
+        <div class="nav-brand">Ashutosh Kumar</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-inline-item">
-                <a class="link link-active" href="/">home</a>
+                <a class="link link-active" href="/">Home</a>
             </li>
             <li class="list-inline-item">
-                <a class="link" href="/">products</a>
+                <a class="link" href="/projects.html">Projects</a>
             </li>
             <li class="list-inline-item">
-                <a class="link" href="/">about</a>
+                <a class="link" href="/blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>@header</h2>
 
     <header class="hero">
         <img class="hero-img" src="images/hero.svg">
-        <h1 class="hero-heading">ashutosh kumar <span class="heading-inverted">software engineer</span> </h1>
+        <h1 class="hero-heading">Ashutosh Kumar <span class="heading-inverted">Software Engineer</span> </h1>
     </header>
 
-    <hr>
-
-    <h2>@section</h2>
-    <section class="section">
-        <div class="container container-center">
-            <h1>this is a white section</h1>
-            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
-                or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
-                to drive innovation on the Web to serve the greater good. It starts here, with you.
-            </p>
-        </div>
-    </section>
 
     <section class="section ow">
         <div class="container container-center">
-            <h1>this is an off-white section</h1>
-            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
-                or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
-                to drive innovation on the Web to serve the greater good. It starts here, with you.
+            <h1>Technologies</h1>
+            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting.
             </p>
         </div>
     </section>
 
-    <hr>
 
-    <h2>@footer</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>If you would like to see what I have worked upon, you can see my projects hosted online.
+            </p>
+            <a class="link link-primary" href="/projects.html">View Projects</a>
+        </div>
+    </section>
+
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>As I move along my journey of programming, I like to document my learnings. Here are some of the blogs I have worked upon.
+            </p>
+            <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+        </div>
+    </section>
+
+
     <footer class="footer">
-        <div class="footer-header">some text inside footer</div>
+        <div class="footer-header">Get In Touch</div>
         <ul class="social-links list-non-bullet">
-            <li class="list-inline-item"><a class="link" href="/">social one</a></li>
-            <li class="list-inline-item"><a class="link" href="/">social two</a></li>
-            <li class="list-inline-item"><a class="link" href="/">social three</a></li>
+            <li class="list-inline-item"><a class="link" href="https://www.linkedin.com/in/kumar-ashutosh2/">LinkedIn</a></li>
+            <li class="list-inline-item"><a class="link" href="https://github.com/ashutosh-kumar2">GitHub</a></li>
+            <li class="list-inline-item"><a class="link" href="https://twitter.com/ashutoshh_kk">Twitter</a></li>
         </ul>
     </footer>
 </body>
-
 </html>
