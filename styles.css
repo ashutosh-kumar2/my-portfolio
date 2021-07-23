@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 :root{
@@ -117,3 +118,20 @@ hr{
     background-color: var(--off-white);
 }
 
+/** footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1.5em 0rem;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
