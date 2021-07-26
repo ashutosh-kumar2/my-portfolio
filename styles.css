@@ -79,10 +79,12 @@ hr{
 .navigation .nav-brand{
     font-weight: bold;
     font-size: 1.1rem;
+    padding: 1rem;
 }
 
 .navigation .nav-pills{
     text-align: right;
+    padding: 1rem;
 }
 
 .navigation .link{
