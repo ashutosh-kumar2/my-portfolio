@@ -78,14 +78,14 @@ hr{
 
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 1rem 0rem;
 }
 
 .navigation .nav-pills{
     text-align: right;
     padding: 1rem 0rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .navigation .link{
@@ -145,7 +145,7 @@ hr{
 }
 
 .footer .footer-header{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     padding: 1rem 0rem;
 }
