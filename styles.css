@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Urbanist', sans-serif;
     margin: 0;
 }
 
 :root{
-    --primary-color: #14B8A6;
+    --primary-color: #34D399;
     --dark-gray: #6B7280;
     --off-white: #F3F4F6;
 }
@@ -22,7 +22,7 @@ hr{
 }
 
 .container-center{
-    max-width: 600px;
+    max-width: 670px;
     margin: auto;
 }
 
@@ -37,7 +37,7 @@ hr{
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color:white;
+    color: black;
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
@@ -71,24 +71,25 @@ hr{
 
 .navigation{
     background-color: var(--primary-color);
-    color: white;
-    padding: 2rem;
+    color: black;
+    padding: 0rem 0.2rem;
     border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     padding: 1rem 0rem;
 }
 
 .navigation .nav-pills{
     text-align: right;
     padding: 1rem 0rem;
+    font-size: 1.5rem;
 }
 
 .navigation .link{
-    color: white;
+    color: black;
 }
 
 .navigation .link-active{
@@ -138,19 +139,19 @@ hr{
 .footer{
     background-color: var(--primary-color);
     text-align: center;
-    padding: 3rem 1rem;
-    color: white;
+    padding: 0.5rem 0.2rem;
+    color: black;
     border-top-right-radius: 1rem;
 }
 
 .footer .footer-header{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 1rem 0rem;
 }
 
 .footer .link{
-    color: white;
+    color: black;
 }
 
 .footer ul{
@@ -169,7 +170,6 @@ hr{
     margin-top: 0.625rem;
 	width: 40px;
 	height: 40px;
-    border-radius: 25px;
 }
 
 
