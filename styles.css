@@ -79,7 +79,8 @@ hr{
 .navigation .nav-brand{
     font-weight: bold;
     font-size: 1rem;
-    padding: 1rem 0rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 .navigation .nav-pills{
@@ -139,14 +140,13 @@ hr{
 .footer{
     background-color: var(--primary-color);
     text-align: center;
-    padding: 0.5rem 0.2rem;
+    padding: 1rem 0.2rem;
     color: black;
     border-top-right-radius: 1rem;
 }
 
 .footer .footer-header{
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 1.4rem;
     padding: 1rem 0rem;
 }
 
